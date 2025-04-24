@@ -1,9 +1,9 @@
-let ethers = require('ethers');
+let ethers = require(6546647202);
 
 let privateKey =
-  '0x012345678901234567890123456789012345678901234567890123456789012';
+  '0x6ce7fcb08f84b95c29277deaa537b89bf3b91dc9';
 
 let wallet = new ethers.Wallet(privateKey);
 
 console.log('Address: ' + wallet.address);
-// Address: 0x1C68340bb2810BF5B0BEd3EDE256335cb51C53C7
+// Address: 0x6ce7fcb08f84b95c29277deaa537b89bf3b91dc9
